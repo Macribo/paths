@@ -5,20 +5,26 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="jumbotron">
+        <h1 className="display-4">dúisíonn tú</h1>
+        <p className="lead">Tá tú ag chrith leis an fúacht.</p>
+        <hr className="my-4" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Tá tú fliuch báite, ag luí ar úrlár mícothram lán uisce. Tá an túrlár
+          ag casadh agus ag lúascadh ar nós bád i stoirm. Tá an dorchadas
+          iomlán.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <a className="btn btn-primary btn-lg" href="#" role="button">
+          Seas
         </a>
-      </header>
+        <a className="btn btn-primary btn-lg" href="#" role="button">
+          éist
+        </a>
+
+        <a className="btn btn-primary btn-lg" href="#" role="button">
+          béic
+        </a>
+      </div>
     </div>
   );
 }
