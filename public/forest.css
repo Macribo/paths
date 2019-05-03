@@ -1,0 +1,99 @@
+body {
+  background-color: green;
+}
+.full_modal-content {
+  background: url('../images/6fields.png');
+}
+
+.centerer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#hide {
+  display: none;
+  transition: 0.5s;
+}
+.modal-header {
+  color: rgb(105, 105, 105);
+  text-align: center;
+}
+.full_modal-dialog {
+  width: 98% !important;
+  height: 92% !important;
+  min-width: 98% !important;
+  min-height: 92% !important;
+  max-width: 98% !important;
+  max-height: 92% !important;
+  padding: 0 !important;
+}
+
+.full_modal-content {
+  height: 99% !important;
+  min-height: 99% !important;
+  max-height: 99% !important;
+  border: none;
+  border: 3px solid red;
+}
+.modal-body {
+  /* display: flex; */
+  display: none;
+  align-content: center;
+  justify-content: center;
+}
+.forest-options,
+m34 {
+  /* display: none; */
+  background: url('../src/images/forestPaths.png') no-repeat center;
+  display: flex;
+  justify-content: space-around;
+  height: 40%;
+  width: 100%;
+  margin: 0px;
+  padding: 50px;
+}
+.forest-btn {
+  background-color: white;
+  border: 5px solid #696969;
+  border-radius: 10px;
+  background-size: contain;
+  font-size: 1.5em;
+  margin: 10px;
+  align-content: center;
+  padding: 3% 7% 3% 7%;
+  transition: 0.3s;
+}
+.modal-footer {
+  /* display: flex; */
+}
+#forest-continue,
+#quick {
+  background: rgb(171, 250, 171);
+  transition: 0.3s;
+}
+.forest-btn:hover {
+  background: #696969;
+  color: white;
+  border: 5px solid orange;
+}
+#forest-continue:hover,
+#quick:hover {
+  background: #696969;
+
+  color: rgb(171, 250, 171);
+}
+
+#quick-confirm {
+  /* display: flex; */
+  display: none;
+}
+.forest-quickstart-btns {
+  /* display: none; */
+  /* align-content: space-between;
+  justify-content: center; */
+}
+.caution {
+  border: 4px solid orange;
+  background-color: orange;
+}

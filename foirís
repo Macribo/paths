@@ -1,0 +1,26 @@
+Cén saighs Gaeilge a bhfil á tosnú agat leis?
+
+a.Níl Gaeilge agam.
+b.Beagán Gaeilge agam.
+c.Gnáth Gaeilge agam.
+d.Gaeilge Líofa agam.
+
+Beanachtaí...
+a.. Welcome. This app is about alorithms. Walk with me?
+b.. Fáilte. You can use this app to move towards fluency. Foghlaim?
+c.. Fáilte. Watsup a vic. Tosnaigh cluiche nua? 
+d..
+
+//{
+username:'imreoir',
+ 
+ceistA:'Cad is ainm dhuit?',
+ceistB:'Roghnaigh PasFhocal',
+ceistC:'SheoladhRíomhpost',
+ceistD:'Cé dó a nimríonn tú?',
+CainntA:'Sea. Bhí aithne agam ar do sínsar, '+ randomAncestorFirstname+ playerName - last 2 characters + random diminuitive, amuigh i Co. '+coLocation,
+
+
+
+
+}
