@@ -2,15 +2,23 @@ body {
   background-color: green;
 }
 .full-modal-content {
-  background: url('../images/6fields.png');
-  display: flex;
+  /* display: flex; */
+
+  /* border: 2px solid orange; */
+}
+.modal-content {
+  background: green !important;
+  border-radius: 20px !important;
+  height: 100px;
 }
 #forest-modal-header {
+  border: 2px solid green;
+
+  border-radius: 20px;
+  background: green;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* border: 2px solid orange; */
 }
 .centerer {
   display: flex;

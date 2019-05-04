@@ -1,5 +1,9 @@
 import React from 'react';
 
 export default function ForestModalTitle() {
-  return <div>Foraoise</div>;
+  return (
+    <div>
+      <h1>Foraoise</h1>
+    </div>
+  );
 }
